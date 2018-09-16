@@ -20,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/TrincaTech/react-generator/issues"
   },
-  "homepage": "https://github.com/TrincaTech/react-generator#readme"
+  "homepage": "https://github.com/TrincaTech/react-generator#readme",
+  "dependencies": {
+    "commander": "^2.18.0",
+    "create-react-app": "^1.5.2",
+    "cross-spawn": "^6.0.5"
+  }
 }
