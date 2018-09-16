@@ -1,0 +1,24 @@
+{
+  "name": "react-generator",
+  "version": "1.0.0",
+  "description": "",
+  "preferGlobal": true,
+  "main": "./lib/reactor.js",
+  "bin": {
+    "reactor": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TrincaTech/react-generator.git"
+  },
+  "keywords": [],
+  "author": "TrincaTech Development",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TrincaTech/react-generator/issues"
+  },
+  "homepage": "https://github.com/TrincaTech/react-generator#readme"
+}
