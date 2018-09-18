@@ -1,0 +1,51 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true,
+        "jest": true
+    },
+    "extends": ["react-app", "eslint:recommended"],
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "experimentalObjectRestSpread": true,
+            "jsx": true
+        },
+        "sourceType": "module"
+    },
+    "plugins": [
+        "import",
+        "react"
+    ],
+    "rules": {
+        "indent": ["error", 4, {"SwitchCase": 1}],
+        "linebreak-style": ["error", "unix"],
+        "quotes": ["error", "double"],
+        "semi": ["error", "always"],
+        "eol-last": ["error", "always"],
+        "comma-dangle": ["error", {
+            "arrays": "always-multiline",
+            "objects": "always-multiline",
+            "imports": "always-multiline",
+            "exports": "always-multiline",
+            "functions": "always-multiline"
+        }],
+        "no-unused-vars": ["error", { "ignoreRestSiblings": true, "argsIgnorePattern": "^_" }],
+        "no-multi-spaces": "error",
+        "no-trailing-spaces": "error",
+        "no-multiple-empty-lines": ["error", {"max": 1, "maxEOF": 0, "maxBOF": 1}],
+        "space-before-blocks": "error",
+        "space-infix-ops": "error",
+        "keyword-spacing": "error",
+        "object-curly-spacing": ["error", "never"],
+        "curly": "error",
+        "brace-style": ["error", "1tbs"],
+        "camelcase": ["error", {"properties": "never"}],
+        "no-console": "off",
+        "jsx-quotes": ["error", "prefer-double"],
+        "react/jsx-uses-vars": "error",
+        "react/jsx-uses-react": "error",
+        "import/order": ["error", {"groups": [["external", "builtin"], ["index", "sibling", "parent", "internal"]], "newlines-between": "always" }]
+    }
+}
